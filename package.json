@@ -1,8 +1,8 @@
 {
-  "name": "next15-shadcn-use-bun",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
+	"name": "next15-shadcn-use-bun",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
 		"prepare": "lefthook install",
 		"preinstall": "npx only-allow bun",
 		"dev": "next dev --turbopack",
@@ -13,20 +13,20 @@
 		"check": "bunx biome check --write ./",
 		"type-check": "tsc --noEmit",
 		"type-check:watch": "tsc --noEmit --watch"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.2"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "lefthook": "^1.10.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  }
+	},
+	"dependencies": {
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"next": "15.1.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"lefthook": "^1.10.0",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5"
+	}
 }
